@@ -3,7 +3,7 @@ import Fastify, { FastifyInstance } from 'fastify'
 import cors from '@fastify/cors'
 import aspida from '@aspida/axios'
 import api from '$/api/$api'
-import Home from '~/pages/index'
+import Home from '~/pages/clender/index'
 import { render, fireEvent, waitFor } from '../testUtils'
 
 dotenv.config({ path: 'server/.env' })
